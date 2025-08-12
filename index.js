@@ -1,6 +1,6 @@
 // Variáveis
 let nomeHeroi = "Artemis";
-let xp = 9000;
+let xp = 10001;
 
 // Estrutura de decisão
 let nivel;
@@ -11,7 +11,9 @@ if (xp < 1000) {
     nivel = "Bronze";
 } else if (xp >= 2001 && xp <= 5000) {
     nivel = "Prata";
-} else if (xp >= 5001 && xp <= 8000) {
+} else if (xp >= 6001 && xp <= 7000) {
+    nivel = "Ouro";    
+} else if (xp >= 7001 && xp <= 8000) {
     nivel = "Platina Diamante";
 } else if (xp >= 8001 && xp <= 9000) {
     nivel = "Ascendente";
